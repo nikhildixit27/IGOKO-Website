@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>IGOKO || Learn To Lead</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/igoko.png" rel="igoko">
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <!-- =======================================================
+  * Template Name: Arsha
+  * Updated: May 30 2023 with Bootstrap v5.3.0
+  * Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+
+  <script>
+    window.chatbaseConfig = {
+        chatbotId: "fewLJzHkLjpca5lKUk0bn",
+    }
+  </script>
+  <script src="https://www.chatbase.co/embed.min.js" id="fewLJzHkLjpca5lKUk0bn" defer>
+  </script>
+
+
+
+</head>
+
+<body>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center">
+      <!-- <h1 class="logo me-auto"><a href="index.html">Arsha</a></h1> -->
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link   scrollto" href="productPage.html">Product</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="getstarted scrollto" href="tel:+91-9891256009">Call us</a></li>
+          <li><a class="getstarted scrollto" href="https://calendly.com/igokoavionicssolutions/30min"
+              target="_blank">Schedule Meeting</a></li>
+          <li><a class="getstarted scrollto" href="join us.html" target="_blank">Join Us</a></li>
+          <li><a class="getstarted scrollto" href="#login-form" style="background-color: #4CAF50;">Client Login</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+      <!-- .navbar -->
+
+
+      <div id="login-form" class="login-form">
+        <h2>Login</h2>
+        <form>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+          </div>
+          <div class="form-group">
+            <div class="itemcheckboxform">
+              <input type="checkbox" id="keep-signed-in" name="keep-signed-in">
+              <label for="keep-signed-in">Keep me signed in</label>
+            </div>
+          </div>
+          <button type="submit">Login</button>
+        </form>
+      </div>
+
+
+
+      <style>
+        /* Add this CSS code to your existing stylesheet or create a new one */
+
+.itemcheckboxform label{
+  display: inline;
+  padding-left: 10px;
+}
+
+
+
+.login-form {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+  width: 400px;
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-form .form-group {
+  margin-bottom: 20px;
+}
+
+.login-form label {
+  /* display: block; */
+  margin-bottom: 5px;
+  display: inline;
+  padding-left: 10px;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.item-checkbox-form{
+  display: inline;
+}
+
+.login-form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #47b2e4;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Show the login form on button click */
+
+.login-form.show {
+  display: block;
+}
+
+
+
+
+
+      </style>
+
+
+
+
+<script>
+  // Add this JavaScript code at the end of your HTML body or in an external script file
+
+  document.addEventListener('DOMContentLoaded', function() {
+  const loginButton = document.querySelector('#navbar .getstarted[href="#login-form"]');
+  const loginForm = document.querySelector('#login-form');
+
+  loginButton.addEventListener('click', function(event) {
+    event.preventDefault();
+    loginForm.classList.toggle('show');
+  });
+
+  // Close the popup when clicked outside
+  document.addEventListener('click', function(event) {
+    const target = event.target;
+    if (!loginForm.contains(target) && target !== loginButton) {
+      loginForm.classList.remove('show');
+    }
+  });
+});
+
+
+</script>
+
+    </div>
+  </header><!-- End Header -->
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
+          data-aos="fade-up" data-aos-delay="200">
+          <!-- <h1>Empower your online presence with innovative web solutions</h1> -->
+          <div id="wrapper">
+            <h1>
+              <div id="fixed-txt">Empower your online presence with innovative</div>
+              <ul id="moving-txt">
+                <li><span style="color: skyblue;">Web Designing</span></li>
+                <li><span style="color: yellow;">Analytics</span></li>
+                <li><span style="color: skyblue;">Branding</span></li>
+                <li><span style="color: yellow;">Advertisment</span></li>
+              </ul>
+            </h1>
+          </div>
+          <h2>We are Weaving your dreams into captivating digital experiences</h2>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+            <a href="#" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+          <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+        </div>
+      </div>
+    </div>
+  </section><!-- End Hero -->
+  <main id="main">
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients section-bg">
+      <div class="container">
+        <div class="row" data-aos="zoom-in">
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </section><!-- End Cliens Section -->
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>About Us</h2>
+        </div>
+        <div class="row content">
+          <div class="col-lg-6">
+            <p>
+            <h5>Powerful Digital Media Company</h5> We love to create. We at Igoko Avioncs Solutions provides you
+            different kind of digital solutions. Digital Marketing, SEO, Graphic Designing, Anylatics, Adwords, Web
+            Designing, Web Solutions, Branding, Social Media Marketing, Film & Advertisment, Model Photoshoot etc. We
+            have a experience of more than 4years & having many trustable clients </p>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+            <h5>Value added WebDesign Services</h5> Over the years, we have worked with Fortune 100s and brand-new
+            startups. We help ambitious businesses like yours generate more profits by building awareness, driving web
+            traffic, connecting with customers, and growing overall sales. Give us a call. </p>
+            <a href="#" class="btn-learn-more">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section><!-- End About Us Section -->
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us section-bg">
+      <div class="container-fluid" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+            <div class="content">
+              <h3><strong>FAQ</strong> Freequently Ask Questions </h3>
+              <p> <strong>answers to your most common questions and embark on a seamless journey</strong> </p>
+            </div>
+            <div class="accordion-list">
+              <ul>
+                <li>
+                  <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> Do
+                    You Guys Provide Maintenance ?<i class="bx bx-chevron-down icon-show"></i><i
+                      class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
+                    <p> Yes...We Do Provide Maintenance For One Year At No Cost Once Your Website Is Completed. </p>
+                  </div>
+                </li>
+                <li>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span> What
+                    Does Free Maintenance Include ? <i class="bx bx-chevron-down icon-show"></i><i
+                      class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
+                    <p> Free Maintenance Include Server Protection, Site Protection, Daily Backup, Protection From
+                      Hackers & All Uptime Of Website. </p>
+                  </div>
+                </li>
+                <li>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span> What
+                    Is Payment Procedure ? <i class="bx bx-chevron-down icon-show"></i><i
+                      class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
+                    <p> 50% Advance Payment Should Be Made Before Starting The Project & Once Project Is Completed 50%
+                      Rest Payment Needed To Be Paid </p>
+                  </div>
+                </li>
+                <li>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-4" class="collapsed"><span>04</span> How
+                    Much Time It Take To Build Website ? <i class="bx bx-chevron-down icon-show"></i><i
+                      class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-4" class="collapse" data-bs-parent=".accordion-list">
+                    <p> Building Of Website May Take From 7days to 30days or more it totally depends on project. We
+                      deliver Portfolio website in just 7days. Custom Projects may take bit long time </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img"
+            style='background-image: url("assets/img/why-us.png");' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
+        </div>
+      </div>
+    </section><!-- End Why Us Section -->
+    <!-- ======= Skills Section ======= -->
+    <!-- <section id="skills" class="skills">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+            <img src="assets/img/skills.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
+            <h3>Web Designing</h3>
+            <p class="fst-italic"> WEB DESIGNING we have successfully created & launched a number of projects across
+              varied niche for professionals like Dentists ,Event,Interior,Gym,yoga,etc, the details of which you can
+              check out in our portfolio.. </p>
+            <div class="skills-content">
+              <div class="progress">
+                <span class="skill">HTML <i class="val">100%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                    aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill">CSS <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill">JavaScript <i class="val">75%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill">Photoshop <i class="val">55%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>End Skills Section -->
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Services</h2>
+          <p> Over the years, we have worked with Fortune 100s and brand-new startups. We help ambitious businesses like
+            yours generate more profits by building awareness, driving web traffic, connecting with customers, and
+            growing overall sales. Give us a call🤙</p>
+        </div>
+        <div class="row">
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class='bx bxs-edit'></i></div>
+              <h4><a href="">Web Design</a></h4>
+              <p> Web design is not just about creating pretty layouts; it's about understanding the user and solving
+                their problems effectively</p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
+            data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class='bx bx-objects-vertical-bottom'></i></div>
+              <h4><a href="">Digital Marketing</a></h4>
+              <p>The aim of marketing is to know and understand the customer so well the product or service fits them
+                perfectly and sells itself.</p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in"
+            data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class='bx bx-file-find'></i></div>
+              <h4><a href="">SEO Services</a></h4>
+              <p>Search engine optimization is not about fooling Google; it's about making sure that the right people
+                find your website.</p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in"
+            data-aos-delay="400">
+            <div class="icon-box">
+              <div class="icon"><i class='bx bx-envelope'></i></div>
+              <h4><a href="">Email Marketing</a></h4>
+              <p>Email marketing is the secret weapon to connect, engage, and convert your audience into loyal
+                customers.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Services Section -->
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-start">
+            <h3>Call To Action</h3>
+            <p> Unlock your creativity with our customizable options. Click the button below to embark on a journey of
+              personalization and create something uniquely yours.<br><br> In the realm of possibility, thoughts are the
+              seeds and actions are the water. Nurture your thoughts, and watch them blossom into vibrant realities.</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="https://calendly.com/igokoavionicssolutions/30min"
+              target="_blank">Schedule Meeting</a>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Cta Section -->
+    <!-- ======= Portfolio Section ======= -->
+    <!-- End Portfolio Section -->
+    <!-- ======= Team Section ======= -->
+    <!-- End Team Section -->
+    <!-- ======= Pricing Section ======= -->
+    <section id="pricing" class="pricing">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>BEST MARKET PLAN & PACKAGE</h2>
+          <p>Unlock the door to success with our comprehensive market plans and packages designed to maximize your
+            brand's visibility and impact.</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+            <div class="box">
+              <h3>PORTFOLIO</h3>
+              <h4><sup>₹ </sup>10,500<span>Yearly Package</span></h4>
+              <ul>
+                <li><i class="bx bx-check"></i> One Year Domain</li>
+                <li><i class="bx bx-check"></i> One Year Maintenance</li>
+                <li><i class="bx bx-check"></i> Wordpress Platform</li>
+                <li><i class="bx bx-check"></i> Fully Customizable</li>
+                <li><i class="bx bx-check"></i> 3 Months Service free</li>
+              </ul>
+              <a href="https://calendly.com/igokoavionicssolutions/30min" class="buy-btn" target="_blank">Acquire Now</a>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <h3>E-Commerce</h3>
+              <h4><sup>₹ </sup>25,000<span>Yearly Package</span></h4>
+              <ul>
+                <li><i class="bx bx-check"></i> One Year Domain</li>
+                <li><i class="bx bx-check"></i> One Year Maintenance</li>
+                <li><i class="bx bx-check"></i> Wordpress/Shopify </li>
+                <li><i class="bx bx-check"></i>Unlimited Products</li>
+                <li><i class="bx bx-check"></i> 3 Months Service Free</li>
+              </ul>
+              <a href="https://calendly.com/igokoavionicssolutions/30min" class="buy-btn" target="_blank" class="buy-btn">Acquire Now</a>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+            <div class="box">
+              <h3>Portal</h3>
+              <h4><sup>₹</sup>28,000<span>Yearly Package<span></h4>
+              <ul>
+                <li><i class="bx bx-check"></i> One Year Domain </li>
+                <li><i class="bx bx-check"></i> One Year Maintenance </li>
+                <li><i class="bx bx-check"></i> Php/Laravel Etc </li>
+                <li><i class="bx bx-check"></i>Fully Customizable </li>
+                <li><i class="bx bx-check"></i> 3 Months Service Free </li>
+              </ul>
+              <a href="https://calendly.com/igokoavionicssolutions/30min" class="buy-btn" target="_blank" class="buy-btn">Acquire Now</a>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+            <div class="box">
+              <h3>Mini Portal</h3>
+              <h4><sup>₹</sup>7,500<span>Yearly Package</span></h4>
+              <ul>
+                <li><i class="bx bx-check"></i> One Year Domain </li>
+                <li><i class="bx bx-check"></i> One Year Maintenance/li>
+                <li><i class="bx bx-check"></i> HTML/CSS Platform</li>
+                <li><i class="bx bx-check"></i> Fully Customizable/li>
+                <li><i class="bx bx-check"></i> 3 Month Service Free</li>
+              </ul>
+              <a href="https://calendly.com/igokoavionicssolutions/30min" class="buy-btn" target="_blank" class="buy-btn">Acquire Now</a>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <h3>Mini-ECommerce</h3>
+              <h4><sup>₹</sup>9,000<span>Yearly Package</span></h4>
+              <ul>
+                <li><i class="bx bx-check"></i> One Year Domain</li>
+                <li><i class="bx bx-check"></i> One Year Maintenance</li>
+                <li><i class="bx bx-check"></i> Blogger</li>
+                <li><i class="bx bx-check"></i> Unlimited Products</li>
+                <li><i class="bx bx-check"></i> 3 Month Service Free</li>
+              </ul>
+              <a href="https://calendly.com/igokoavionicssolutions/30min" class="buy-btn" target="_blank" class="buy-btn">Acquire Now</a>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+            <div class="box">
+              <h3>App Development</h3>
+              <h4><sup>₹</sup>12,000<span>Yearly Package</span></h4>
+              <ul>
+                <li><i class="bx bx-check"></i> Android App</li>
+                <li><i class="bx bx-check"></i> IOS App</li>
+                <li><i class="bx bx-check"></i> From Scratch</li>
+                <li><i class="bx bx-check"></i> Fully Customizable</li>
+                <li><i class="bx bx-check"></i> 3 Month Service Free</li>
+              </ul>
+              <a href="https://calendly.com/igokoavionicssolutions/30min" class="buy-btn" target="_blank" class="buy-btn">Acquire Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Pricing Section -->
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <!-- End Frequently Asked Questions Section -->
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Your feedback matters. Contact us and help us serve you betters.</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p> H-53-A GALI NO-2WEST KARAWAL NAGAR,Delhi,India</p>
+              </div>
+              <div class="email">
+                <a href="mailto:amansolanki5254@gmail.com"><i class="bi bi-envelope"></i></a>
+                <h4>Email:</h4>
+                <p> amansolanki5254@gmail.com</p>
+              </div>
+              <div class="phone">
+                <a href="tel:+91-9891256009"><i class="bi bi-phone"></i></a>
+                <h4>Call:</h4>
+                <p>+91-9891256009</p>
+              </div>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+                frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="email">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center">
+                <button type="submit">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Contact Section -->
+  </main><!-- End #main -->
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-newsletter">
+      <div class="container">
+      </div>
+    </div>
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h1><a href="index.html"><strong>IGOKO</strong></a></h1>
+            <p>H-53-A GALI NO-2 <br>WEST KARAWAL NAGAR<br><strong>
+                <h5>Delhi,India</h5>
+              </strong><br><br>
+              <strong>Phone:</strong> +91-9891256009<br>
+              <strong>Email:</strong> amansolanki5254@gmail.com<br>
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Social Networks</h4>
+            <p>Connect with us on social media and stay updated with the latest news, events, and exclusive offers. Join
+              the conversation today</p>
+            <div class="social-links mt-3">
+              <a href="https://twitter.com/igokoavionics?lang=en" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="https://www.facebook.com/home.php" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="https://www.instagram.com/igokoavionics/" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="https://www.skype.com/en/" class="google-plus"><i class="bx bxl-skype"></i></a>
+              <a href="https://www.linkedin.com/company/iga-solutions-private-limited/?originalSubdomain=in"
+                class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom clearfix">
+      <div class="copyright"> &copy; Copyright <strong><span><B>Igoko</B> </span></strong>. All Rights Reserved <br>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->
+        Designed by <a href="index.html"><img src="assets/img/favicon.png"></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <!-- <script src="./scripts/responses.js"></script>
+  <script src="./scripts/chat.js"></script>
+  <iframe src="mscbot/index.html" style="position: fixed; bottom: 0; right: 50px; min-height: 700px; width: 350px;"></iframe> -->
+</body>
+
+</html>

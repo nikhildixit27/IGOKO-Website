@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <title>Join Us</title>
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/igoko.png" rel="igoko">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Join Us</h1>
+    <p>Thank you for your interest in joining our team! Please fill out the form below to apply.</p>
+
+    <form action="#" method="POST">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="resume">Upload Resume (PDF)</label>
+      <div class="upload-wrapper">
+        <input type="file" id="resume" name="resume" accept=".pdf" required>
+        <label for="resume" class="custom-file-upload">Choose File</label>
+      </div>
+
+      <label for="why-join">Why do you want to join us?</label>
+      <textarea id="why-join" name="why-join" required></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</body>
+
+</html>
